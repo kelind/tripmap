@@ -1,3 +1,18 @@
-First, we need some coordinates to plot on the map. I used [Maxmind's free world cities database](https://www.maxmind.com/en/free-world-cities-database) for the latitude/longitude info for all the cities on my list.
+tripmap
+====
 
-For this tutorial, I'm going to demonstrate with five of the cities I visited to make things more straightforward. The code to reproduce the final map image I used, which includes a lot more data points, is included in XXXX.
+A tutorial on the Basemap package using data from a trip that I took. Covers basic plotting in Basemap: setting up the map, using projections, and adding data.
+
+Requirements
+====
+
+The tutorial requires only Matplotlib and Basemap. I found it a bit difficult to get Basemap installed myself; what ultimately worked was installing via [conda-forge](https://anaconda.org/conda-forge/basemap).
+
+Installation
+===
+
+Clone the repository.
+
+`clone https://github.com/kelind/tripmap.git`
+
+The tutorial itself, which uses a subset of the data, is included in the Jupyter notebook file `tutorial.ipynb`. To generate the final map I used myself, run `plot_trip_coords.py` instead.
